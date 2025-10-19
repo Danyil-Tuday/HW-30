@@ -1,0 +1,33 @@
+.div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top:200px;
+    left:300px;
+    animation-name: square;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes square {
+    25%{
+        top:400px;
+        left: 300px;
+        background-color: blue;
+    }
+    50%{
+        left: 600px;
+        top:400px;
+        background-color: green;
+    }
+    75%{
+        top:200px;
+        left: 600px;
+        background-color: yellow;
+    }
+    100%{
+        left:300px;
+        top:200px;
+        background-color: red;
+    }
+}
